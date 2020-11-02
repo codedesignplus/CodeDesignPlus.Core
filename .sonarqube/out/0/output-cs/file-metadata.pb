@@ -1,0 +1,13 @@
+Q
+HD:\Sdk\CodeDesignPlus.Core\src\CodeDesignPlus.Core\Abstractions\IBase.csutf-8T
+KD:\Sdk\CodeDesignPlus.Core\src\CodeDesignPlus.Core\Abstractions\IDtoBase.csutf-8W
+ND:\Sdk\CodeDesignPlus.Core\src\CodeDesignPlus.Core\Abstractions\IDtoInteger.csutf-8T
+KD:\Sdk\CodeDesignPlus.Core\src\CodeDesignPlus.Core\Abstractions\IDtoLong.csutf-8W
+ND:\Sdk\CodeDesignPlus.Core\src\CodeDesignPlus.Core\Abstractions\IEntityBase.csutf-8Z
+QD:\Sdk\CodeDesignPlus.Core\src\CodeDesignPlus.Core\Abstractions\IEntityInteger.csutf-8W
+ND:\Sdk\CodeDesignPlus.Core\src\CodeDesignPlus.Core\Abstractions\IEntityLong.csutf-8\
+SD:\Sdk\CodeDesignPlus.Core\src\CodeDesignPlus.Core\Abstractions\IStartupServices.csutf-8Q
+HD:\Sdk\CodeDesignPlus.Core\src\CodeDesignPlus.Core\Models\Pager\Pager.csutf-8V
+MD:\Sdk\CodeDesignPlus.Core\src\CodeDesignPlus.Core\Models\Pager\Parameters.csutf-8„
+yD:\Sdk\CodeDesignPlus.Core\src\CodeDesignPlus.Core\obj\Debug\netcoreapp3.1\.NETCoreApp,Version=v3.1.AssemblyAttributes.csutf-8y
+nD:\Sdk\CodeDesignPlus.Core\src\CodeDesignPlus.Core\obj\Debug\netcoreapp3.1\CodeDesignPlus.Core.AssemblyInfo.csutf-8
