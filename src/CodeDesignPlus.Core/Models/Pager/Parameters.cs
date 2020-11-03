@@ -6,7 +6,7 @@ namespace CodeDesignPlus.Core.Models.Pager
     /// <summary>
     /// Modelo que permitira obtener los datos de la petición para paginar los datos
     /// </summary>
-    public class Parameters: IBase
+    public class Parameters: IDtoBase
     {
         /// <summary>
         /// Pagina actual

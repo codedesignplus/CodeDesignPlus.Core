@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using CodeDesignPlus.Core.Abstractions;
+using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 
 namespace CodeDesignPlus.Core.Test.Helpers.Extensions
@@ -14,7 +15,7 @@ namespace CodeDesignPlus.Core.Test.Helpers.Extensions
         /// <typeparam name="TDto">Tipo de objeto a validar</typeparam>
         /// <param name="dto">ViewModel a Validar</param>
         /// <returns>Returna una lista con los resultados de las validaciones</returns>
-        public static IList<ValidationResult> Validate<TDto>(this TDto dto) where TDto : class, new()
+        public static IList<ValidationResult> Validate<TDto>(this TDto dto) where TDto : IDtoBase
         {
             var results = new List<ValidationResult>();
 
