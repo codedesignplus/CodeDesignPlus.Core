@@ -1,11 +1,12 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using CodeDesignPlus.Core.Abstractions;
+using System.ComponentModel.DataAnnotations;
 
 namespace CodeDesignPlus.Core.Models.Pager
 {
     /// <summary>
     /// Modelo que permitira obtener los datos de la petición para paginar los datos
     /// </summary>
-    public class Parameters
+    public class Parameters: IBase
     {
         /// <summary>
         /// Pagina actual

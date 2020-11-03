@@ -12,7 +12,7 @@ namespace CodeDesignPlus.Core.Abstractions
     /// </summary>
     /// <typeparam name="TKey">Tipo de dato que identificara el registro</typeparam>
     /// <typeparam name="TUserKey">Tipo de datos que identificara el usuario</typeparam>
-    public interface IBase<TKey, TUserKey>
+    public interface IBase<TKey, TUserKey>: IBase
     {
         /// <summary>
         /// Id del registro

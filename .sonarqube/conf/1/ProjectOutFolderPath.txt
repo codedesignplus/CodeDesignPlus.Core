@@ -1,1 +1,0 @@
-D:\Sdk\CodeDesignPlus.Core\.sonarqube\out\1
