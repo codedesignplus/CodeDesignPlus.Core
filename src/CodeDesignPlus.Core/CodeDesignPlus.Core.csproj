@@ -13,7 +13,7 @@
 		<RepositoryType>Git</RepositoryType>
 		<PackageTags>CodeDesignPlus Core SDK</PackageTags>
 	</PropertyGroup>
-	
+	 
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
 		<DocumentationFile>..\..\docs\CSharp Doc\CodeDesignPlus.Core.xml</DocumentationFile>
 	</PropertyGroup>

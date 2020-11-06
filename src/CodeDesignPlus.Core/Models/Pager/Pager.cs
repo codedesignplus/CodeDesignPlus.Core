@@ -9,7 +9,7 @@ namespace CodeDesignPlus.Core.Models.Pager
     /// Pagina los datos de un IQueryable
     /// </summary>
     /// <remarks>https://jasonwatmore.com/post/2018/10/17/c-pure-pagination-logic-in-c-aspnet</remarks>
-    /// <typeparam name="T">Tipo de datos a retornar en el objeto</typeparam>
+    /// <typeparam name="T">Tipo de datos a retornar en el objeto </typeparam>
     public class Pager<T> where T : IBase
     {
         /// <summary>
