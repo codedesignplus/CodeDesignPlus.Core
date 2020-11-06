@@ -24,11 +24,11 @@
 	</ItemGroup>
 
 	<ItemGroup>
-	  <None Include="..\..\..\..\Projects\Calculator\Calculator\LICENSE.md">
+	  <None Include="..\..\LICENSE.md">
 	    <Pack>True</Pack>
 	    <PackagePath></PackagePath>
 	  </None>
-	  <None Include="..\..\..\..\Projects\Calculator\Calculator\logo.png">
+	  <None Include="..\..\logo.png">
 	    <Pack>True</Pack>
 	    <PackagePath></PackagePath>
 	  </None>
