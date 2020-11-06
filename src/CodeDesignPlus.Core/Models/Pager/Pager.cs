@@ -9,7 +9,7 @@ namespace CodeDesignPlus.Core.Models.Pager
     /// Pagina los datos de un IQueryable
     /// </summary>
     /// <remarks>https://jasonwatmore.com/post/2018/10/17/c-pure-pagination-logic-in-c-aspnet</remarks>
-    /// <typeparam name="T">Tipo de datos a retornar en el objeto</typeparam>
+    /// <typeparam name="T">Tipo de datos a retornar en el objeto </typeparam>
     public class Pager<T> where T : IBase
     {
         /// <summary>
@@ -60,6 +60,7 @@ namespace CodeDesignPlus.Core.Models.Pager
         /// <param name="currentPage">Pagina actual</param>
         /// <param name="pageSize">Numero de registros por pagina</param>
         /// <param name="maxPages">Numero de paginas</param>
+        /// <param name="data">Información de la paginación</param>
         public Pager(int totalItems, List<T> data, int currentPage = 1, int pageSize = 10, int maxPages = 10)
         {
             // calculate total pages

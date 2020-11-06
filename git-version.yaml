@@ -1,0 +1,11 @@
+mode: Mainline 
+next-version: 1.0.0
+branches:
+ feature:
+   tag: alpha-
+   regex: (^features)|(^pull)
+ master:
+   tag: '' 
+   regex: master$
+ignore: 
+ sha: []
