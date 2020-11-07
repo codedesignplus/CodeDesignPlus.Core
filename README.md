@@ -25,7 +25,7 @@
 <br />
 <p align="center">
   <a href="https://github.com/codedesignplus/CodeDesignPlus.Core/README">
-    <img src="../logo.png" alt="Logo">
+    <img src="logo.png" alt="Logo">
   </a>
 
   <h3 align="center">CodeDesignPlus.Core</h3>
@@ -65,7 +65,7 @@
 ## About The Project
 
 <p align="center">
-    <img src="images/CodeDesignPlus.Core.png" alt="Logo">
+    <img src="doc/images/CodeDesignPlus.Core.png" alt="Logo">
 </p>
 
 

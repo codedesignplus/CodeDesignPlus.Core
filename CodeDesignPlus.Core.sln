@@ -14,7 +14,7 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "doc", "doc", "{863B74AE-B554-4266-AA75-B253567B03C3}"
 	ProjectSection(SolutionItems) = preProject
 		doc\LICENSE.md = doc\LICENSE.md
-		doc\README.md = doc\README.md
+		README.md = README.md
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "scripts", "scripts", "{CA1C18AA-1A06-4947-8F18-973E001C2AC6}"
