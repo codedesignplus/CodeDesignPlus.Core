@@ -7,15 +7,24 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{142A85E2-735
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{E2120723-DC9A-43FD-B099-EAEE9325A62A}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CodeDesignPlus.Core", "src\CodeDesignPlus.Core\CodeDesignPlus.Core.csproj", "{3CB3A705-7566-4D97-8238-9D5FFEF357BA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CodeDesignPlus.Core", "src\CodeDesignPlus.Core\CodeDesignPlus.Core.csproj", "{7232A2F1-6953-4202-9696-202E7A43E7DD}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CodeDesignPlus.Core.Test", "tests\CodeDesignPlus.Core.Test\CodeDesignPlus.Core.Test.csproj", "{3B2CB4CE-045A-4146-86D6-4197772A17B9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CodeDesignPlus.Core.Test", "tests\CodeDesignPlus.Core.Test\CodeDesignPlus.Core.Test.csproj", "{A083607E-C1DC-4D5F-B656-5ED6DB1E935E}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{77520AE5-EA3C-430B-BEFA-E863A3F846D9}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "doc", "doc", "{863B74AE-B554-4266-AA75-B253567B03C3}"
 	ProjectSection(SolutionItems) = preProject
-		git-version.yaml = git-version.yaml
 		LICENSE.md = LICENSE.md
-		run-scanner-sonarqube.ps1 = run-scanner-sonarqube.ps1
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "scripts", "scripts", "{CA1C18AA-1A06-4947-8F18-973E001C2AC6}"
+	ProjectSection(SolutionItems) = preProject
+		scripts\run-scanner-sonarqube.ps1 = scripts\run-scanner-sonarqube.ps1
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "pipelines", "pipelines", "{F2F744DF-C611-4CFF-9D22-D44217FAF375}"
+	ProjectSection(SolutionItems) = preProject
+		pipelines\git-version.yaml = pipelines\git-version.yaml
 	EndProjectSection
 EndProject
 Global
@@ -24,21 +33,21 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{3CB3A705-7566-4D97-8238-9D5FFEF357BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{3CB3A705-7566-4D97-8238-9D5FFEF357BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{3CB3A705-7566-4D97-8238-9D5FFEF357BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{3CB3A705-7566-4D97-8238-9D5FFEF357BA}.Release|Any CPU.Build.0 = Release|Any CPU
-		{3B2CB4CE-045A-4146-86D6-4197772A17B9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{3B2CB4CE-045A-4146-86D6-4197772A17B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{3B2CB4CE-045A-4146-86D6-4197772A17B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{3B2CB4CE-045A-4146-86D6-4197772A17B9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7232A2F1-6953-4202-9696-202E7A43E7DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7232A2F1-6953-4202-9696-202E7A43E7DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7232A2F1-6953-4202-9696-202E7A43E7DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7232A2F1-6953-4202-9696-202E7A43E7DD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A083607E-C1DC-4D5F-B656-5ED6DB1E935E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A083607E-C1DC-4D5F-B656-5ED6DB1E935E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A083607E-C1DC-4D5F-B656-5ED6DB1E935E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A083607E-C1DC-4D5F-B656-5ED6DB1E935E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{3CB3A705-7566-4D97-8238-9D5FFEF357BA} = {142A85E2-7351-4BF6-8322-17B9A7AF98F7}
-		{3B2CB4CE-045A-4146-86D6-4197772A17B9} = {E2120723-DC9A-43FD-B099-EAEE9325A62A}
+		{7232A2F1-6953-4202-9696-202E7A43E7DD} = {142A85E2-7351-4BF6-8322-17B9A7AF98F7}
+		{A083607E-C1DC-4D5F-B656-5ED6DB1E935E} = {E2120723-DC9A-43FD-B099-EAEE9325A62A}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {AA90245B-9218-44D1-8044-EA54828BC167}

@@ -341,3 +341,4 @@ healthchecksdb
 
 # SonarQube
 /.sonarqube
+coverage.opencover.xml
